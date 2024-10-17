@@ -29,7 +29,7 @@ app.get("/delete",(req,res)=>{
   res.send("dados apagados");
 });
 
-app.listen(8000,()=>{
+app.listen(port,()=>{
   console.log("servidor online");
 })
 
